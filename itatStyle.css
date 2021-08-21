@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #8B5CF6;
+}
+
+body div div {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 2rem 0rem;
+}
+
+form label {
+    color: var(--primary-color);
+    display: block;
+    font: larger;
+    padding: 1rem 0rem;
+}
+
+form input {
+    border: 2px solid var(--primary-color);
+    display: block;
+    font-size: larger;
+    padding: 0.5rem 1rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+
+button {
+    margin-top: 3rem;
+    color: white;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 1rem 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#score-display {
+    margin-top: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: larger;
+}

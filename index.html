@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/style.css" rel="stylesheet" />
+    <link href="/quizStyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav class="navigation">
+        <div class="nav-brand">Fun With Triangles</div>
+
+        <ul>
+            <li>
+                <a href="/isTriangle.html">Is a Triangle?</a>
+            </li>
+            <li>
+                <a href="/index.html">Quiz</a>
+            </li>
+            <li>
+                <a href="/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li>
+                <a href="/areaOfTriangle.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container container-center">
+        <form id="form-quiz">
+            <div>
+                <p>
+                    What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+                </p>
+                    <label ><input type="radio" id="q1-45d" name="q1"/> 45°</label>
+                    
+                    <label ><input type="radio" id="q1-60d" name="q1"/> 60°</label>
+                    
+                    <label ><input type="radio" id="q1-90d" name="q1"/> 90°</label>
+            </div>
+            <div>
+                <p>
+                    What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+                </p>
+                    <label ><input type="radio" id="q2-obtuse" name="q2"/> obtuse</label>
+                    
+                    <label ><input type="radio" id="q2-acute" name="q2"/> acute</label>
+                    
+                    <label ><input type="radio" id="q2-right-angled" name="q2"/> right angled</label>
+
+            </div>
+
+            <div>
+                <p>
+                    A triangle can have
+                </p>
+                    <label ><input type="radio" id="q3-one-right-angle" name="q3"/> one right angle</label>
+                    
+                    <label ><input type="radio" id="q3-two-right-angle" name="q3"/> two right angles</label>
+            </div>
+
+            <div>
+                <p>
+                    Which of the following can form a right angled triangle?
+                </p>
+                    <label ><input type="radio" id="q4-is-rt-1" name="q4"/> 14, 15, 26</label>
+                    
+                    <label ><input type="radio" id="q4-is-rt-2" name="q4"/> 12, 16, 20</label>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+        <div id="score-display"></div>
+
+    </div>
+
+
+    <footer class="footer">
+        <div>
+            <p><strong>Let's Check Your Triangle Knowledge.</strong></p>
+            <p>© | 2021 | ivarunme</p>
+        </div>
+        
+    </footer>
+    
+    <script src="/app.js" type="text/javascript"></script>
+</body>
+</html>
