@@ -2,4 +2,4 @@
 
 A fun app that tests your knowledge on triangles.
 
-[Try it yourself]()
+[Try it yourself](https://mad-angles-triangles.netlify.app/)
