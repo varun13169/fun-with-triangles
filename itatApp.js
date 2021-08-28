@@ -20,5 +20,4 @@ function angleOnSubmitHandler(e) {
     }
 }
 
-
 angleForm.addEventListener('submit', angleOnSubmitHandler)
