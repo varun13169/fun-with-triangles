@@ -1,14 +1,13 @@
-let quizForm = document.querySelector('#form-quiz');
-let quizScoreDisp = document.querySelector('#score-display');
+const quizForm = document.querySelector('#form-quiz');
+const quizScoreDisp = document.querySelector('#score-display');
 
-let q1Correct = document.querySelector('#q1-90d');
-let q2Correct = document.querySelector('#q2-right-angled');
-let q3Correct = document.querySelector('#q3-one-right-angle');
-let q4Correct = document.querySelector('#q4-is-rt-2');
+const q1Correct = document.querySelector('#q1-90d');
+const q2Correct = document.querySelector('#q2-right-angled');
+const q3Correct = document.querySelector('#q3-one-right-angle');
+const q4Correct = document.querySelector('#q4-is-rt-2');
 
-quizForm.addEventListener('submit', quizOnSubmitHandler)
 
-function quizOnSubmitHandler(e) {
+const quizOnSubmitHandler = e => {
     e.preventDefault();
     
     let quizScore = 0;
@@ -28,3 +27,6 @@ function quizOnSubmitHandler(e) {
 
     quizScoreDisp.innerHTML = "Your score is: " + quizScore;
 }
+
+
+quizForm.addEventListener('submit', quizOnSubmitHandler)
