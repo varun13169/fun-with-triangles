@@ -1,13 +1,13 @@
 
 
-let aotForm = document.querySelector('#form-area-of-triangle');
-let aotDisp = document.querySelector('#aot-disp');
+const aotForm = document.querySelector('#form-area-of-triangle');
+const aotDisp = document.querySelector('#aot-disp');
 
-let side1 = document.querySelector('#aot-side-1');
-let side2 = document.querySelector('#aot-side-2');
-let side3 = document.querySelector('#aot-side-3');
+const side1 = document.querySelector('#aot-side-1');
+const side2 = document.querySelector('#aot-side-2');
+const side3 = document.querySelector('#aot-side-3');
 
-function aotOnSubmitHandler(e) {
+const aotOnSubmitHandler = e => {
     e.preventDefault();
 
     a = parseInt(side1.value);
